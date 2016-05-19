@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-forkmegithub",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Display a ribbon to your GitHub repo in your gitbook",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,13 @@
     "name": "Mizunashi Mana",
     "email": "mizunashi_mana@mma.club.uec.ac.jp"
   },
+  "keywords": [
+    "gitbook",
+    "github",
+    "forkme",
+    "ribbon",
+    "plugin"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mizunashi-mana/gitbook-plugin-forkmegithub/issues"
