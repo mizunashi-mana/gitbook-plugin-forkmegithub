@@ -1,5 +1,10 @@
 .book .book-header {
-  margin-right: 150px;
+  margin-right: 100px;
+}
+
+.book .book-header h1 {
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 a#forkmegithub img {
@@ -13,7 +18,7 @@ i.fa-github {
   display: none;
 }
 
-@media (max-width:600px) {
+@media (max-width:300px) {
   .book .book-header {
     margin-right: 0px;
   }
