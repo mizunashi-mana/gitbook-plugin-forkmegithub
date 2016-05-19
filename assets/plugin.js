@@ -51,7 +51,9 @@ require(['gitbook', 'jQuery', 'lodash'], function (gitbook, $, _) {
         window.open(pluginConfig.url);
       }
     });
+  });
 
+  gitbook.events.bind('page.change', function() {
     var bodyInner = $('.book .book-body .body-inner');
     bodyInner.append(forkmeRibbon);
   });
