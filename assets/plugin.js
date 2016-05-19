@@ -32,17 +32,11 @@ require(['gitbook', 'jQuery', 'lodash']), function (gitbook, $, _) {
     if (!_.includes(_.keys(colorRibbons), pluginConfig.color)) {
       pluginConfig.color = 'gray';
     }
-    if (typeof config.github !== 'undefined') {
-      pluginConfig.url = config.github.url;
-    }
-    if (typeof pluginConfig.url !== 'undefined') {
-      throw new TypeError('url must be set for forkmegithub plugin.');
-    }
 
     var colorRibbon = colorRibbons[pluginConfig.color];
     forkmeRibbon
       = '<a id="forkmegithub" href="' + pluginConfig.url + '">'
-      + '<img src="' + colorRibbon.src '" alt="Fork me on GitHub"'
+      + '<img src="' + colorRibbon.src + '" alt="Fork me on GitHub"'
       + 'data-canonical-src="' + colorRibbon.canonicalSrc + '"></img>'
       + '</a>'
       ;
