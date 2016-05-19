@@ -1,0 +1,29 @@
+.book .book-header {
+  margin-right: 150px;
+}
+
+a#forkmegithub img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+}
+
+i.fa-github {
+  display: none;
+}
+
+@media (max-width:600px) {
+  .book .book-header {
+    margin-right: 0px;
+  }
+
+  a#forkmegithub {
+    display: none;
+  }
+
+  i.fa-github {
+    display: inline-block;
+  }
+}
+
