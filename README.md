@@ -37,7 +37,7 @@ Put this in your `book.json`:
 
  * url: Your github repository
  * color: Ribbon color (default: gray)
-   * black, gray, blue, red, green
+   * gray, darkblue, red, green, orange
 
 ## Contributing
 

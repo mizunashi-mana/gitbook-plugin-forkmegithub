@@ -39,7 +39,7 @@
       "color": {
         "type": "string",
         "required": false,
-        "title": "Color of ribbon"
+        "title": "Color of ribbon (gray/green/red/orange/darkblue)"
       }
     }
   }
