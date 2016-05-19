@@ -6,6 +6,8 @@ Display a ribbon linked to your GitHub repo in your gitbook.
 [![License][license-image]][license-url]
 [![Downloads][downloads-image]][downloads-url]
 
+[Plugin Page][plugin-url]
+
 ## Image
 
 ### Longer Page Width
@@ -51,4 +53,5 @@ Fork [me][github-url] on GitHub, and [request][github-pr-url] your fix in this!
 [license-url]: LICENSE
 [downloads-image]: http://img.shields.io/npm/dm/gitbook-plugin-forkmegithub.svg?style=flat-square
 [downloads-url]: https://npmjs.org/package/gitbook-plugin-forkmegithub
+[plugin-url]: https://plugins.gitbook.com/plugin/forkmegithub
 
