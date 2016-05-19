@@ -18,7 +18,7 @@ i.fa-github {
   display: none;
 }
 
-@media (max-width:300px) {
+@media (max-width:800px) {
   .book .book-header {
     margin-right: 0px;
   }
