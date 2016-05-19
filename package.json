@@ -1,0 +1,39 @@
+{
+  "name": "gitbook-plugin-forkmegithub",
+  "version": "0.0.1",
+  "description": "Display a ribbon to your GitHub repo in your gitbook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mizunashi-mana/gitbook-plugin-forkmegithub.git"
+  },
+  "author": {
+    "name": "Mizunashi Mana",
+    "email": "mizunashi_mana@mma.club.uec.ac.jp"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mizunashi-mana/gitbook-plugin-forkmegithub/issues"
+  },
+  "homepage": "https://github.com/mizunashi-mana/gitbook-plugin-forkmegithub#readme",
+  "engines": {
+    "gitbook": ">=2.5.0"
+  },
+  "gitbook": {
+    "properties": {
+      "url": {
+        "type": "string",
+        "required": true,
+        "title": "URL to your GitHub repository"
+      },
+      "color": {
+        "type": "string",
+        "required": false,
+        "title": "Color of ribbon"
+      }
+    }
+  }
+}
