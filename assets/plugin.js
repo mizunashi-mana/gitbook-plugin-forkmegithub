@@ -49,6 +49,15 @@ require(['gitbook', 'jQuery', 'lodash'], function (gitbook, $, _) {
   gitbook.events.bind('start', function (e, config) {
     initializePlugin(config);
 
+    gitbook.toolbar.createButton({
+      icon: 'fa fa-github',
+      label: 'GitHub',
+      position: 'right',
+      onClick: function() {
+        window.open(pluginConfig.url);
+      }
+    });
+
     var bodyInner = $('.book .book-body .body-inner');
     bodyInner.append(forkmeRibbon);
   });
