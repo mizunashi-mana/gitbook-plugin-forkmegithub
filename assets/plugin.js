@@ -25,13 +25,7 @@ require(['gitbook', 'jQuery', 'lodash'], function (gitbook, $, _) {
   var forkmeRibbon;
   var pluginConfig = {};
   function initializePlugin(config) {
-    pluginConfig = {
-      url: config.forkmegithub.url,
-      color: config.forkmegithub.color,
-    };
-    if (!_.includes(_.keys(colorRibbons), pluginConfig.color)) {
-      pluginConfig.color = 'gray';
-    }
+    pluginConfig = config.forkmegithub;
 
     var colorRibbon = colorRibbons[pluginConfig.color];
     forkmeRibbon
