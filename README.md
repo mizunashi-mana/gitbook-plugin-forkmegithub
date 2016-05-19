@@ -8,7 +8,13 @@ Display a ribbon linked to your GitHub repo in your gitbook.
 
 ## Image
 
+### Longer Page Width
 
+![ribbon with long width](docs/assets/longver.png)
+
+### Short Page Width
+
+![button with short width](docs/assets/shortver.png)
 
 ## Usage
 
