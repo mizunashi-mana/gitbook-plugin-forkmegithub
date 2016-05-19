@@ -12,11 +12,11 @@ Display a ribbon linked to your GitHub repo in your gitbook.
 
 ### Longer Page Width
 
-![ribbon with long width](docs/assets/longver.png)
+![ribbon with long width][longver-png-url]
 
 ### Short Page Width
 
-![button with short width](docs/assets/shortver.png)
+![button with short width][shortver-png-url]
 
 ## Usage
 
@@ -48,10 +48,12 @@ Fork [me][github-url] on GitHub, and [request][github-pr-url] your fix in this!
 [github-url]: https://github.com/mizunashi-mana/gitbook-plugin-forkmegithub
 [github-pr-url]: https://github.com/mizunashi-mana/gitbook-plugin-forkmegithub/pulls
 [npm-image]: https://img.shields.io/npm/v/gitbook-plugin-forkmegithub.svg?style=flat-square
-[npm-url]: https:/npmjs.org/package/gitbook-plugin-forkmegithub
+[npm-url]: https://npmjs.org/package/gitbook-plugin-forkmegithub
 [license-image]: https://img.shields.io/npm/l/gitbook-plugin-forkmegithub.svg?style=flat-square
-[license-url]: LICENSE
+[license-url]: https://github.com/mizunashi-mana/gitbook-plugin-forkmegithub/blob/master/LICENSE
 [downloads-image]: http://img.shields.io/npm/dm/gitbook-plugin-forkmegithub.svg?style=flat-square
 [downloads-url]: https://npmjs.org/package/gitbook-plugin-forkmegithub
 [plugin-url]: https://plugins.gitbook.com/plugin/forkmegithub
+[longver-png-url]: https://raw.githubusercontent.com/mizunashi-mana/gitbook-plugin-forkmegithub/master/docs/assets/longver.png
+[shortver-png-url]: https://raw.githubusercontent.com/mizunashi-mana/gitbook-plugin-forkmegithub/master/docs/assets/shortver.png
 
