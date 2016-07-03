@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-forkmegithub",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Display a ribbon to your GitHub repo in your gitbook",
   "main": "index.js",
   "scripts": {
